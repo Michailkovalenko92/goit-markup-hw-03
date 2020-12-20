@@ -100,10 +100,10 @@ ul {
   text-decoration: none;
 }
 .list {
-  list-style: none;
-  text-decoration: none;
   padding: 0;
   margin: 0;
+  list-style: none;
+  text-decoration: none;
 }
 .contacts {
   display: flex;
@@ -242,6 +242,7 @@ header {
 }
 
 .teams {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -305,10 +306,6 @@ header {
   padding: 94px 0;
 }
 
-.filter-title {
-  color: transparent;
-}
-
 .buttom .filter-buttom:not(:last-child) {
   margin-right: 8px;
 }
@@ -361,7 +358,7 @@ header {
 }
 
 .project-title {
-  margin: 20px 24px 4px;
+  margin: 0 0 4px;
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 18px;
@@ -370,8 +367,15 @@ header {
 }
 
 .project-name {
-  margin: 0 24px 20px;
+  margin: 0;
   color: var(--primery-text-color);
   font-size: 16px;
   line-height: 1.88;
+}
+
+.job-name {
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
