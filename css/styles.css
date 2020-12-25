@@ -236,14 +236,14 @@ header {
 }
 
 /* команда */
+
 .teams .list {
   display: flex;
-  background-color: #f5f4fa;
 }
 
 .teams {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  background-color: #f5f4fa;
+  padding: 94px 0;
 }
 
 .teams .teams-member:not(:last-child) {
@@ -342,6 +342,10 @@ header {
 .jobs {
   display: flex;
   flex-wrap: wrap;
+}
+
+.jobs img {
+  display: block;
 }
 
 .jobs > .item {
